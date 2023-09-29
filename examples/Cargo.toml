@@ -25,4 +25,4 @@ webpki-roots = "0.25"
 
 [dev-dependencies]
 regex = "1.0"
-ring = "0.16.20"
+ring = { package = "ring-wasi", git = "https://github.com/jedisct1/ring-wasi", branch = "0.16.20" }
